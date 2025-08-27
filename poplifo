@@ -1,0 +1,16 @@
+# Creating a stack using a list
+stack = []
+
+# Pushing elements onto the stack
+stack.append(1)
+stack.append(2)
+stack.append(3)
+print("Current stack:", stack)
+
+# Popping elements from the stack in LIFO order
+print("Popped element (LIFO):", stack.pop())
+print("Stack after popping:", stack)
+
+print("Popped element (LIFO):", stack.pop())
+print("Popped element (LIFO):", stack.pop())
+print("Popped element (LIFO):", stack.pop() if stack else "Stack is empty")

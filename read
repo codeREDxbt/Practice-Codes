@@ -1,0 +1,16 @@
+# Content to be written to the text file
+content_to_write = """Hello, this is an example text file."""
+
+# Path to the text file
+file_path = 'example.txt'
+
+# Writing to a text file
+with open(file_path, 'w') as file:
+    file.write(content_to_write)
+
+# Reading from the text file
+with open(file_path, 'r') as file:
+    content = file.read()
+
+# Display the content
+print("Content of the text file:\n", content)

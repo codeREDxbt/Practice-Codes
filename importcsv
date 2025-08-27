@@ -1,0 +1,10 @@
+import csv
+
+# Path to the CSV file
+file_path = 'people.csv'
+
+# Reading from the CSV file
+with open(file_path, 'r') as file:
+    reader = csv.reader(file)
+    for row in reader:
+        print(row)

@@ -1,0 +1,11 @@
+# Creating a queue using a list
+queue = [1, 2, 3]  # Initial queue
+print("Initial queue:", queue)
+
+# Dequeueing elements (FIFO)
+print("Dequeued element (FIFO):", queue.pop(0) if queue else "Queue is empty")
+print("Queue after dequeuing:", queue)
+
+print("Dequeued element (FIFO):", queue.pop(0) if queue else "Queue is empty")
+print("Dequeued element (FIFO):", queue.pop(0) if queue else "Queue is empty")
+print("Dequeued element (FIFO):", queue.pop(0) if queue else "Queue is empty")

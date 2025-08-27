@@ -1,0 +1,26 @@
+# Creating a dictionary
+my_dict = {
+    'name': 'Vinayak',
+    'age': 25,
+    'city': 'New Delhi'
+}
+
+# Display the dictionary
+print("Dictionary:", my_dict)
+
+# Accessing values by keys
+print("Name:", my_dict['name'])
+print("Age:", my_dict['age'])
+print("City:", my_dict['city'])
+
+# Adding a new key-value pair
+my_dict['profession'] = 'Engineer'
+print("Updated Dictionary:", my_dict)
+
+# Removing a key-value pair
+del my_dict['age']
+print("Dictionary after deletion:", my_dict)
+
+# Looping through the dictionary
+for key, value in my_dict.items():
+    print(f"{key}: {value}")

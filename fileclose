@@ -1,0 +1,15 @@
+import csv
+
+# Path to the CSV file
+file_path = 'people.csv'
+
+# Opening the file
+file = open(file_path, 'r')
+
+# Reading from the CSV file
+reader = csv.reader(file)
+for row in reader:
+    print(row)
+
+# Manually closing the file
+file.close()

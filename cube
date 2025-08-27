@@ -1,0 +1,12 @@
+# Function to calculate the cube of a number
+def cube(num):
+    return num ** 3
+
+# Input from the user
+number = float(input("Enter a number: "))
+
+# Calculate the cube
+cubed_value = cube(number)
+
+# Display the result
+print(f"The cube of {number} is {cubed_value}")

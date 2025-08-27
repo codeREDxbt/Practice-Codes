@@ -1,0 +1,27 @@
+# Creating a stack using a list
+stack = []
+
+# Function to add (push) an element to the stack
+def push(element):
+    stack.append(element)
+    print(f"Pushed {element} to stack")
+
+# Function to remove (pop) an element from the stack
+def pop():
+    if stack:
+        return stack.pop()
+    else:
+        return "Stack is empty"
+
+# Example usage
+push(1)
+push(2)
+push(3)
+print("Current stack:", stack)
+
+print("Popped element:", pop())
+print("Stack after popping:", stack)
+
+print("Popped element:", pop())
+print("Popped element:", pop())
+print("Popped element:", pop())  # This will indicate the stack is empty
